@@ -2,7 +2,7 @@ import TelegramBot from "node-telegram-bot-api";
 import qr from "qr-image";
 import fs from "fs";
 
-const token = "6969319096:AAEtkwsqQjS0kKW3eup--wcNoFlVvDoK21E";
+const token = "INSERT_YOUR_TOKEN_HERE";
 const bot = new TelegramBot(token, { polling: true });
 var started;
 
